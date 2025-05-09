@@ -1,0 +1,120 @@
+/* Cor de fundo e texto padrão */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+  }
+  
+  /* Estilos de cor */
+  .text-pink { color: #FF85B3 !important; }
+  .bg-pink { background-color: #FF85B3 !important; }
+  .bg-light-pink { background-color: #FFEEF5 !important; }
+  .bg-dark-pink { background-color: #D44B8D !important; }
+  
+  /* Estilos de botões */
+  .btn-pink {
+    background-color: #FF85B3;
+    color: white;
+    border-color: #FF85B3;
+  }
+  .btn-pink:hover {
+    background-color: #E65FA0;
+    border-color: #E65FA0;
+  }
+  
+  .btn-outline-pink {
+    color: #FF85B3;
+    border-color: #FF85B3;
+  }
+  .btn-outline-pink:hover {
+    background-color: #FF85B3;
+    color: white;
+  }
+  
+  /* Estilos de Navbar */
+  .navbar {
+    padding: 1rem 0;
+  }
+  .navbar-brand { font-size: 1.5rem; }
+  
+  /* Seção Hero */
+  .hero-section {
+    background-color: #FFEEF5;
+    padding: 5rem 0;
+  }
+  
+  /* Cartões de post */
+  .post-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 0.5rem !important;
+  }
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .post-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+  }
+  
+  /* Badge */
+  .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-weight: 500;
+    padding: 0.35rem 0.75rem;
+  }
+  
+  /* Divider */
+  .divider-pink {
+    height: 3px;
+    width: 80px;
+    background-color: #FF85B3;
+    margin: 1rem auto;
+  }
+  
+  /* Newsletter */
+  .newsletter-card {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  /* Rodapé */
+  footer a {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* Ícones sociais */
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s ease;
+  }
+  .social-icons a:hover {
+    background-color: #FF85B3;
+    transform: translateY(-3px);
+  }
+  
+
+  
